@@ -1,13 +1,13 @@
-# gis3-map
+#gis3-map
 
 By Marynia Kolak
 
 
-## Overview 
+##Overview 
 
-## Results
+##Results
 
-## Limitations
+##Limitations
 
-## Sources
+##Sources
 
