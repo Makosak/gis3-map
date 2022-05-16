@@ -5,7 +5,7 @@
 
 	<meta charset="utf-8" />
 
-	<title>Chicago Trees</title>
+	<title>Chicago Green Roofs</title>
 
 	<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=yes" /> 
 
@@ -37,9 +37,9 @@
 
 	<div class="panel" tabindex="0">
     	
-    	<h1 class="display-3"> Chicago Trees </h1>
+    	<h1 class="display-3"> Green Roofs </h1>
     	
-    	<p class="text-muted"> A collaborative project from multiple Chicago institutions. </p>
+    	<p class="text-muted"> A random project from GIScience 3 in 2022. </p>
    
 	</div>
 
@@ -58,20 +58,18 @@
 
 	<div id='map'></div> 
 
-
-	<script type='text/javascript' src='config.js'></script>
-	
 	<script> 
 
-	mapboxgl.accessToken = config.MY_KEY;
+	mapboxgl.accessToken = 'pk.eyJ1IjoiY3Nkcy1oaXBsYWIiLCJhIjoiY2tkcTdlYXNsMGRhNDJybXl1MWdpejdidSJ9.mgK9yXDfhFCLh5YQuz6r_g'; // 
 
 	var map = new mapboxgl.Map({ 
 		container: 'map', 
-		style: 'mapbox://styles/csds-hiplab/ckdrlg08b02vp19nzsyyf085t', 
-		zoom: 14,                                                 
-		center: [-87.630061, 41.862725]                            
+		style: 'mmapbox://styles/csds-hiplab/cl2rul7wr002p15nfghj0haly', 
+		zoom: 9,                                                 
+		center: [-87.630061, 41.862725]                           
 
 	 }); 
+
 
 	map.addControl(
 		new MapboxGeocoder({
